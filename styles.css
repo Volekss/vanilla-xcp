@@ -1,10 +1,13 @@
 body {
     background-color: #f3e5ab;
     font-family: 'Helvetica', Arial, Lucida Grande, sans-serif;
-    font-size: 15px; 
+    font-size: 18px; 
 }
 h1 {
     
+}
+table{
+    width: 100% !important;
 }
 hr {
     margin-top: 25px;
@@ -32,7 +35,7 @@ button:disabled, button[disabled]{
     background-color: lightgray;
 }
 input {
-    width: 220px;
+    width: 100% !important;
     padding: 12px 12px;
     margin: 8px 0;
     font-size: 15px; 
@@ -63,4 +66,37 @@ tr:nth-child(odd) {
 }
 code {
     background: #f3e5ab;
+}
+
+@media screen and (max-width: 960px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    body {
+            font-size: 22px; 
+    }
+    input {
+        width: 100% !important;
+        font-size: 22px; 
+    
+    }
+    button {
+   
+    font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    body {
+            font-size: 30px; 
+    }
+    input {
+        width: 100% !important;
+        font-size: 30px; 
+    
+    }
+    button {   
+    font-size: 32px;
+    }
 }
